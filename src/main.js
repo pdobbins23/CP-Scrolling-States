@@ -1,11 +1,11 @@
 // Code Practice: Scrolling States
-// Name:
-// Date: 
+// Name: Peter Dobbins
+// Date: 7/2/25
 
-'use strict'
+"use strict";
 
 const config = {
-    parent: 'phaser-game',  // for info text
+    parent: "phaser-game",  // for info text
     type: Phaser.WEBGL,     // for tinting
     width: 400,
     height: 300,
@@ -18,6 +18,6 @@ const config = {
         }
     },
     scene: [ Load, Play ]
-}
+};
 
-const game = new Phaser.Game(config)
+const game = new Phaser.Game(config);
